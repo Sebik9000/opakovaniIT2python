@@ -1,17 +1,17 @@
 
-#Úkol 1
+#Úkol 1 DONE
 name = "sebastian"
 
-#Úkol 2
+#Úkol 2 DONE
 surname = "gargosch"
 
-#Úkol 3
+#Úkol 3 DONE
 print (name+surname)
 
-#Úkol 4
+#Úkol 4 DONE
 input("Zadejte svůj věk: ")
 
-#Úkol 9¨
+#Úkol 9 DONE
 
 answer = input("Vlož svůj věk: ")
 
