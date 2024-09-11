@@ -19,6 +19,10 @@ lenght_surname = len(surname)
 print("Délka jména:", lenght_name)
 print("Délka příjmení:", lenght_surname)
 
+#Úkol 6
+
+x = 6
+
 #Úkol 9 DONE
 
 answer = input("Vlož svůj věk: ")
