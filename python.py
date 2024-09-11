@@ -17,7 +17,6 @@ answer = input("Vlož svůj věk: ")
 
 while not answer.isdigit():
     print("Zadej jen celočíselnou hodnotu")
-    break
-while True:
-    print("Děkuji.")
-    break
+    answer = input("Vlož svůj věk: ")
+
+print("Děkuji.")
