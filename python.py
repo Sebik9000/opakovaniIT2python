@@ -9,7 +9,11 @@ surname = "Gargosch"
 print (name+surname)
 
 #Úkol 4 DONE
-input("Zadejte svůj věk: ")
+age = input("Zadej svůj věk: ")
+
+while not age.isdigit():
+    print("Zadej jen celočíselnou hodnotu")
+    age = input("Vlož svůj věk: ")
 
 #Úkol 5 DONE
 
@@ -30,10 +34,17 @@ for i in range(5):
 print("Konečná hodnota po 5 cyklech:", x)
 
 #Úkol 9 DONE
-answer = input("Vlož svůj věk: ")
+answerAge = input("Vlož svůj věk: ")
 
-while not answer.isdigit():
+while not answerAge.isdigit():
     print("Zadej jen celočíselnou hodnotu")
-    answer = input("Vlož svůj věk: ")
+    answerAge = input("Vlož svůj věk: ")
+    print("Děkuji.")
 
-print("Děkuji.")
+#Úkol 10 DONE
+import random
+
+random_value = random.randint(1, 10)
+print("Náhodná hodnota od 1 do 10 je:", random_value)
+
+#BONUS DONE
