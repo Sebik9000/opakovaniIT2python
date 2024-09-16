@@ -19,12 +19,17 @@ lenght_surname = len(surname)
 print("Délka jména:", lenght_name)
 print("Délka příjmení:", lenght_surname)
 
-#Úkol 6
-
+#Úkol 6 DONE
 x = 6
 
-#Úkol 9 DONE
+#Úkol 7 DONE
+for i in range(5):
+    x += 3
 
+#Úkol 8 DONE
+print("Výsledná hodnota po 5 cyklech:", x)
+
+#Úkol 9 DONE
 answer = input("Vlož svůj věk: ")
 
 while not answer.isdigit():
