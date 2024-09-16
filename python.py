@@ -27,7 +27,7 @@ for i in range(5):
     x += 3
 
 #Úkol 8 DONE
-print("Výsledná hodnota po 5 cyklech:", x)
+print("Konečná hodnota po 5 cyklech:", x)
 
 #Úkol 9 DONE
 answer = input("Vlož svůj věk: ")
