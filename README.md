@@ -1,1 +1,1 @@
-# AlgoritmizacePrvni
+# OpakovaniIT2python
