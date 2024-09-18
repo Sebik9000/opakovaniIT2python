@@ -1,3 +1,5 @@
+#OPRAVA 14:10 přesunul jsem ten import nahoru
+import random
 
 #Úkol 1
 #Proměnná jméno
@@ -51,7 +53,6 @@ while not answerAge.isdigit():
 
 #Úkol 10
 #Naimportuje knihovnu random a vygeneruje náhodnou hodnotu od 1 do 10 a tu pak napíše do konzole
-import random
 
 random_value = random.randint(1, 10)
 print("Náhodná hodnota od 1 do 10 je:", random_value)
